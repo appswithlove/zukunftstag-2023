@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F6A0F2DE25CA6EBB00FC52BC /* Zukunftstag2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6A0F2DD25CA6EBB00FC52BC /* Zukunftstag2App.swift */; };
+		F6A0F2E225CA6EBC00FC52BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6A0F2E125CA6EBC00FC52BC /* Assets.xcassets */; };
+		F6A0F2E525CA6EBC00FC52BC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6A0F2E425CA6EBC00FC52BC /* Preview Assets.xcassets */; };
+		F6A0F2F025CA6EBC00FC52BC /* Zukunftstag2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6A0F2EF25CA6EBC00FC52BC /* Zukunftstag2Tests.swift */; };
+		F6A0F3AF25CA949200FC52BC /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = F6A0F3B125CA949200FC52BC /* Localizable.strings */; };
+		F6A0F3B925CA949900FC52BC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F6A0F3BB25CA949900FC52BC /* InfoPlist.strings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F6A0F2EC25CA6EBC00FC52BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F6A0F2D225CA6EBB00FC52BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F6A0F2D925CA6EBB00FC52BC;
+			remoteInfo = Zukunftstag2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0E951204278641FA00D1EDE1 /* Resources.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Resources.md; sourceTree = "<group>"; };
+		0EC6707926457B9900AD34B0 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
+		0EC6707A26457B9A00AD34B0 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F6A0F2DA25CA6EBB00FC52BC /* Zukunftstag2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Zukunftstag2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6A0F2DD25CA6EBB00FC52BC /* Zukunftstag2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Zukunftstag2App.swift; sourceTree = "<group>"; };
+		F6A0F2E125CA6EBC00FC52BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F6A0F2E425CA6EBC00FC52BC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F6A0F2E625CA6EBC00FC52BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6A0F2EB25CA6EBC00FC52BC /* Zukunftstag2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Zukunftstag2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6A0F2EF25CA6EBC00FC52BC /* Zukunftstag2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Zukunftstag2Tests.swift; sourceTree = "<group>"; };
+		F6A0F2F125CA6EBC00FC52BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6A0F3B025CA949200FC52BC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F6A0F3BA25CA949900FC52BC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F6A0F2D725CA6EBB00FC52BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6A0F2E825CA6EBC00FC52BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		71940A172848A33700050BA6 /* App */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		AE3DE5B227D8E8F700DD18A4 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F6A0F2E425CA6EBC00FC52BC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F6A0F2D125CA6EBB00FC52BC = {
+			isa = PBXGroup;
+			children = (
+				F6A0F2DC25CA6EBB00FC52BC /* Zukunftstag2 */,
+				F6A0F2EE25CA6EBC00FC52BC /* Zukunftstag2Tests */,
+				F6A0F2DB25CA6EBB00FC52BC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F6A0F2DB25CA6EBB00FC52BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F6A0F2DA25CA6EBB00FC52BC /* Zukunftstag2.app */,
+				F6A0F2EB25CA6EBC00FC52BC /* Zukunftstag2Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F6A0F2DC25CA6EBB00FC52BC /* Zukunftstag2 */ = {
+			isa = PBXGroup;
+			children = (
+				F6A0F2DD25CA6EBB00FC52BC /* Zukunftstag2App.swift */,
+				71940A172848A33700050BA6 /* App */,
+				F6A0F37B25CA82FF00FC52BC /* Resources */,
+			);
+			path = Zukunftstag2;
+			sourceTree = "<group>";
+		};
+		F6A0F2EE25CA6EBC00FC52BC /* Zukunftstag2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F6A0F2EF25CA6EBC00FC52BC /* Zukunftstag2Tests.swift */,
+				F6A0F2F125CA6EBC00FC52BC /* Info.plist */,
+			);
+			path = Zukunftstag2Tests;
+			sourceTree = "<group>";
+		};
+		F6A0F37B25CA82FF00FC52BC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0E951204278641FA00D1EDE1 /* Resources.md */,
+				AE3DE5B227D8E8F700DD18A4 /* Preview Content */,
+				F6A0F38F25CA93E200FC52BC /* Localization */,
+				F6A0F2E125CA6EBC00FC52BC /* Assets.xcassets */,
+				F6A0F2E625CA6EBC00FC52BC /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		F6A0F38F25CA93E200FC52BC /* Localization */ = {
+			isa = PBXGroup;
+			children = (
+				F6A0F3B125CA949200FC52BC /* Localizable.strings */,
+				F6A0F3BB25CA949900FC52BC /* InfoPlist.strings */,
+			);
+			path = Localization;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F6A0F2D925CA6EBB00FC52BC /* Zukunftstag2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6A0F2FF25CA6EBC00FC52BC /* Build configuration list for PBXNativeTarget "Zukunftstag2" */;
+			buildPhases = (
+				F6C272CB26E9EC1000D77D14 /* SwiftLint */,
+				F6A0F2D625CA6EBB00FC52BC /* Sources */,
+				F6A0F2D725CA6EBB00FC52BC /* Frameworks */,
+				F6A0F2D825CA6EBB00FC52BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Zukunftstag2;
+			packageProductDependencies = (
+			);
+			productName = Zukunftstag2;
+			productReference = F6A0F2DA25CA6EBB00FC52BC /* Zukunftstag2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F6A0F2EA25CA6EBC00FC52BC /* Zukunftstag2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6A0F30225CA6EBC00FC52BC /* Build configuration list for PBXNativeTarget "Zukunftstag2Tests" */;
+			buildPhases = (
+				F6A0F2E725CA6EBC00FC52BC /* Sources */,
+				F6A0F2E825CA6EBC00FC52BC /* Frameworks */,
+				F6A0F2E925CA6EBC00FC52BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F6A0F2ED25CA6EBC00FC52BC /* PBXTargetDependency */,
+			);
+			name = Zukunftstag2Tests;
+			productName = Zukunftstag2Tests;
+			productReference = F6A0F2EB25CA6EBC00FC52BC /* Zukunftstag2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F6A0F2D225CA6EBB00FC52BC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1500;
+				ORGANIZATIONNAME = "Apps with love";
+				TargetAttributes = {
+					F6A0F2D925CA6EBB00FC52BC = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					F6A0F2EA25CA6EBC00FC52BC = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = F6A0F2D925CA6EBB00FC52BC;
+					};
+				};
+			};
+			buildConfigurationList = F6A0F2D525CA6EBB00FC52BC /* Build configuration list for PBXProject "Zukunftstag2" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				de,
+			);
+			mainGroup = F6A0F2D125CA6EBB00FC52BC;
+			packageReferences = (
+			);
+			productRefGroup = F6A0F2DB25CA6EBB00FC52BC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F6A0F2D925CA6EBB00FC52BC /* Zukunftstag2 */,
+				F6A0F2EA25CA6EBC00FC52BC /* Zukunftstag2Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F6A0F2D825CA6EBB00FC52BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6A0F2E525CA6EBC00FC52BC /* Preview Assets.xcassets in Resources */,
+				F6A0F3AF25CA949200FC52BC /* Localizable.strings in Resources */,
+				F6A0F3B925CA949900FC52BC /* InfoPlist.strings in Resources */,
+				F6A0F2E225CA6EBC00FC52BC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6A0F2E925CA6EBC00FC52BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F6C272CB26E9EC1000D77D14 /* SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = SwiftLint;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if [[ \"$(uname -m)\" == arm64 ]]; then\n    export PATH=\"/opt/homebrew/bin:$PATH\"\nfi\n\nif which swiftlint > /dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, install using brew bundle\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F6A0F2D625CA6EBB00FC52BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6A0F2DE25CA6EBB00FC52BC /* Zukunftstag2App.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6A0F2E725CA6EBC00FC52BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6A0F2F025CA6EBC00FC52BC /* Zukunftstag2Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F6A0F2ED25CA6EBC00FC52BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F6A0F2D925CA6EBB00FC52BC /* Zukunftstag2 */;
+			targetProxy = F6A0F2EC25CA6EBC00FC52BC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F6A0F3B125CA949200FC52BC /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6A0F3B025CA949200FC52BC /* en */,
+				0EC6707926457B9900AD34B0 /* de */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		F6A0F3BB25CA949900FC52BC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6A0F3BA25CA949900FC52BC /* en */,
+				0EC6707A26457B9A00AD34B0 /* de */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F6A0F31725CA726700FC52BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F6A0F31825CA726700FC52BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Zukunftstag2/Resources/Preview Content\"";
+				DEVELOPMENT_TEAM = 9F6U4U3S57;
+				ENABLE_BITCODE = NO;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Zukunftstag2/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.appswithlove.zukunftstag2023.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F6A0F31925CA726700FC52BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9F6U4U3S57;
+				INFOPLIST_FILE = Zukunftstag2Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Apps-with-love.Zukunftstag2Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Zukunftstag2.app/Zukunftstag2";
+			};
+			name = Debug;
+		};
+		F6A0F32325CA72F000FC52BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F6A0F32425CA72F000FC52BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Zukunftstag2/Resources/Preview Content\"";
+				DEVELOPMENT_TEAM = 9F6U4U3S57;
+				ENABLE_BITCODE = NO;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Zukunftstag2/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.appswithlove.zukunftstag2023.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F6A0F32525CA72F000FC52BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FHBCXKRNYR;
+				INFOPLIST_FILE = Zukunftstag2Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Apps-with-love.Zukunftstag2Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Zukunftstag2.app/Zukunftstag2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F6A0F2D525CA6EBB00FC52BC /* Build configuration list for PBXProject "Zukunftstag2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6A0F31725CA726700FC52BC /* Debug */,
+				F6A0F32325CA72F000FC52BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6A0F2FF25CA6EBC00FC52BC /* Build configuration list for PBXNativeTarget "Zukunftstag2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6A0F31825CA726700FC52BC /* Debug */,
+				F6A0F32425CA72F000FC52BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6A0F30225CA6EBC00FC52BC /* Build configuration list for PBXNativeTarget "Zukunftstag2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6A0F31925CA726700FC52BC /* Debug */,
+				F6A0F32525CA72F000FC52BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F6A0F2D225CA6EBB00FC52BC /* Project object */;
+}
