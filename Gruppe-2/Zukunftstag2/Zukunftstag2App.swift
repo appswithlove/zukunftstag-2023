@@ -10,9 +10,27 @@ import SwiftUI
 
 @main
 struct Zukunftstag2App: App {
+    @State var gameStarted: Bool = false
+    @State var gameOver: Bool = false
+    
     var body: some Scene {
         WindowGroup {
-            Text("Hello World")
+            if gameStarted {
+                GameView(onFinish: {
+                    gameStarted = false
+                    gameOver = true
+                })
+            } else {
+                if gameOver {
+                    GameOverView(onEnded: {
+                        gameOver = false
+                    })
+                } else {
+                    StartView(startGame: {
+                        gameStarted = true
+                    })
+                }
+            }
         }
     }
 }
