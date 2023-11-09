@@ -133,7 +133,10 @@ struct GameView: View {
     
     func finishGame() {
         playerCharacter = "💥"
-        playerCharacterScale = 2.0
+        
+        withAnimation(.linear(duration: 2.0)) {
+            playerCharacterScale = 1000.0
+        }
         
         DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
             onFinish()
